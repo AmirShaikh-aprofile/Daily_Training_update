@@ -21,5 +21,35 @@ Description: A NAT Gateway allows private subnets to access the internet (for up
 Note:
 EC2 in public subnets can access the internet directly.
 EC2 in private subnets can reach the internet via NAT.
+
 -----
+
+## 3. Configured Route 53 Private Hosted Zone
+
+- Created a Private Hosted Zone:
+Description: setting up private DNS resolution so that resources inside your VPC (like EC2 or RDS) can resolve internal names like
+<img width="1867" height="883" alt="image" src="https://github.com/user-attachments/assets/54e4a0de-a5d8-4230-b56f-bef43e3996ab" />
+
+- Created 1 ec instance in same VPC in public subnet
+Description: To check if the dns works correctly
+<img width="1866" height="719" alt="image" src="https://github.com/user-attachments/assets/ad82eaf8-d8cd-45ab-8fc0-51190c34b6da" />
+
+- Added record sets:
+Description: This way, we can refer to internal resources by name instead of IP.
+<img width="1854" height="861" alt="image" src="https://github.com/user-attachments/assets/06fd6298-f6fd-4236-af65-4edbf54c784d" />
+
+- Verified the dns record working fine
+<img width="580" height="144" alt="image" src="https://github.com/user-attachments/assets/4efdb56d-dc9e-4e0a-b7b0-eba1e318e101" />
+
+----
+
+## 4. IAM Users, Groups, Roles, and MFA
+
+- Created Groups and Policies with readonly access
+<img width="1869" height="735" alt="image" src="https://github.com/user-attachments/assets/b85c3666-fbac-47ac-8dbc-63ccd7ea566f" />
+
+- Create Users and enable console access and added the the group
+- <img width="1849" height="890" alt="image" src="https://github.com/user-attachments/assets/eabaae1b-2a84-4ad1-b7e6-da553c772e89" />
+
+---
 

@@ -9,6 +9,8 @@
 <img width="1849" height="844" alt="image" src="https://github.com/user-attachments/assets/f9e4ba31-0815-489d-810d-49ac3cb0146a" />
 
 - Changed the desired count to confirm the changes
-- New servers are launched but cloudwatch service is not 
 
-## 2. EC2 (via EBS Snapshots / Lifecycle Manager)
+## Issue Faced
+- New servers are launched but cloudwatch service is not runnig, found that the configuration file was wrong.
+- AFter editing config file, service is up and running.
+<img width="896" height="419" alt="image" src="https://github.com/user-attachments/assets/69198e54-1b75-457c-b4bc-e43fc93c362d" />

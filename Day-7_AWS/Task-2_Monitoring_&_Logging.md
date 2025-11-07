@@ -43,6 +43,8 @@
 - Cloudwatch agent is runnig now
 <img width="688" height="332" alt="image" src="https://github.com/user-attachments/assets/5da364ca-3b29-4cdb-a76f-e7f3835dc56c" />
 
+- Issue got resolved and we are getting logs on cloudwatch
+<img width="1866" height="881" alt="image" src="https://github.com/user-attachments/assets/c3e942d3-8249-409b-a483-446c5d238dbc" />
 
 ----
 ## 4. Troubleshooting & Issues Faced
@@ -108,3 +110,7 @@ sudo vim /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.d/cwagent-
 
 - Created new role and attached to the instance
 <img width="1863" height="718" alt="image" src="https://github.com/user-attachments/assets/bc4a3c18-d7fb-4be0-950b-e7b8a2ac124e" />
+
+- Issue resolved after adding entry in route table for NAT GW.
+<img width="1850" height="860" alt="image" src="https://github.com/user-attachments/assets/e254accd-1713-4580-8ff6-a90bfe3dbc7d" />
+

@@ -1,4 +1,4 @@
-# Transit_Gateway_&_VPC_Peering_Setup.md
+# VPC_Peering_Setup.md
 
 ## VPC Peering
 **1. Created VPC in both the accuunt**

@@ -1,4 +1,4 @@
-<img width="1204" height="301" alt="image" src="https://github.com/user-attachments/assets/97086d03-b1fd-4b2c-a00d-b02c3f4dbce3" />## Task – Automate Deletion of Unused EBS Snapshots with AWS Lambda
+## Task – Automate Deletion of Unused EBS Snapshots with AWS Lambda
 
 Description: -AWS Lambda is a serverless compute service that lets you run code without managing servers.
 You just write your function code, set a trigger (like S3, CloudWatch, EventBridge, API Gateway, etc.), and AWS runs it automatically — only when needed.

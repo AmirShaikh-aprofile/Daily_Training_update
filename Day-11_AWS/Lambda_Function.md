@@ -4,8 +4,8 @@ Description: -AWS Lambda is a serverless compute service that lets you run code 
 You just write your function code, set a trigger (like S3, CloudWatch, EventBridge, API Gateway, etc.), and AWS runs it automatically — only when needed.
 
 ## Create a Lambda function that:
-- Lists all EBS snapshots owned by your account.
-- Identifies old or unused snapshots (e.g., older than 7 or 30 days).
+- Lists all EBS snapshots owned by my account.
+- Identifies old or unused snapshots which is not attached with the volume and Ec2.
 - Deletes those snapshots automatically.
 - Logs all actions to CloudWatch Logs for auditing.
 

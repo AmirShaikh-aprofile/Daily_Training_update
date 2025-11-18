@@ -1,4 +1,4 @@
-# CLI_Setup_&_cluster_creation.md
+# CLI_Setup_for_cluster_creation.md
 # 1.Setting up AWS CLI and kubctl, and eksctl
 - Download and installed aws cli in instance
 <img width="610" height="58" alt="image" src="https://github.com/user-attachments/assets/9c5397c6-0e5c-4fd7-901f-b9d9308bb260" />

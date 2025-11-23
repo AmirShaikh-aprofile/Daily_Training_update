@@ -38,6 +38,7 @@ kubectl apply -f 02-pod-definition.yml
 # List Pods
 kubectl get pods
 ```
+<img width="574" height="193" alt="image" src="https://github.com/user-attachments/assets/f6e5add5-a144-49c8-b3e1-3c3945669ac1" />
 
 ## Step-03: Create a NodePort Service
 - **03-pod-nodeport-service.yml**
@@ -73,6 +74,8 @@ kubectl get nodes -o wide
 http://<WorkerNode-Public-IP>:<NodePort>
 http://<WorkerNode-Public-IP>:31231
 ```
+<img width="575" height="242" alt="image" src="https://github.com/user-attachments/assets/0fac76e3-52df-435e-a04d-025783e6f3a8" />
+<img width="645" height="281" alt="image" src="https://github.com/user-attachments/assets/ef65d991-af3e-4558-8189-59b63797cfc9" />
 
 ## API Object References
 -  **Pod**: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#pod-v1-core

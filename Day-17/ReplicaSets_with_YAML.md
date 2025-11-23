@@ -42,6 +42,7 @@ kubectl get pods
 # Delete Pod
 kubectl delete pod <Pod-Name>
 ```
+<img width="573" height="372" alt="image" src="https://github.com/user-attachments/assets/2b285597-bf6d-4306-9f01-9e4850d79224" />
 
 ## Step-03: Create NodePort Service for ReplicaSet
 ```yml
@@ -75,6 +76,8 @@ http://<Worker-Node-Public-IP>:<NodePort>
 http://<Worker-Node-Public-IP>:31232
 
 ```
+<img width="779" height="524" alt="image" src="https://github.com/user-attachments/assets/d77d3210-c64a-4a0a-a054-d6878e84a439" />
+<img width="534" height="414" alt="image" src="https://github.com/user-attachments/assets/462a88f5-2530-4f3b-b7a3-411decd51d17" />
 
 ## API References
 - **ReplicaSet:** https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#replicaset-v1-apps

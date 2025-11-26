@@ -134,10 +134,13 @@ Inserts an item at a specific index.
 Shifts existing elements to the right.
 Useful when you want the new item at a specific position.
 
+<img width="925" height="414" alt="image" src="https://github.com/user-attachments/assets/0f881bbc-6f7f-4538-b3db-510a1b764a49" />
+
 ---
 ## 8. Loops
 Loops allow repeated execution of code blocks.  
 They are widely used in DevOps to iterate through servers, log files, configuration entries, cloud resources, and API results.
+<img width="925" height="414" alt="image" src="https://github.com/user-attachments/assets/3bce5d36-67a5-4f78-bc94-a439cca0e4a7" />
 
 ---
 
@@ -145,6 +148,8 @@ They are widely used in DevOps to iterate through servers, log files, configurat
 Functions group reusable blocks of logic.  
 In DevOps, functions help structure automation scripts, reduce duplication, and improve maintainability.  
 They are essential for building modular scripts for tasks like monitoring, deployments, validations, and system checks.
+
+<img width="877" height="925" alt="image" src="https://github.com/user-attachments/assets/fe3d7e84-b998-455d-9382-196b9f804a12" />
 
 ---
 

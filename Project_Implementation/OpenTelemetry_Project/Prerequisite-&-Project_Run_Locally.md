@@ -28,4 +28,26 @@
 
 # Running Project locally on Ec2 instance.
 
-1. 
+1. Cloned the repo ```https://github.com/iam-veeramalla/ultimate-devops-project-demo.git```
+2. While running project locally, getting below error, which means 'containerd mount leak during docker build'.
+- Hence resoved the issue by unmount all stuck containerd tmpmounts.
+- ```failed to unmount /var/lib/containerd/tmpmounts/... : device or resource busy```
+- ```
+sudo systemctl stop docker
+sudo systemctl stop containerd
+sudo umount -f /var/lib/containerd/tmpmounts/* 2>/dev/null
+sudo rm -rf /var/lib/containerd/tmpmounts/*
+sudo rm -rf /var/lib/docker/overlay2/*/merged
+sudo systemctl start containerd
+sudo systemctl start docker
+docker builder prune -af
+docker system prune -af --volumes
+```
+
+3. Wedsite is accesable from the public IP of my instance
+- ```http://13.202.187.125:8080/```
+- <img width="1265" height="965" alt="image" src="https://github.com/user-attachments/assets/aa01dfd7-89f7-49c5-8f09-896a48e0b578" />
+
+
+
+
